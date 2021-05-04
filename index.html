@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Char Recog</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Gelasio|Roboto:100,300,500&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="trackpad.js"></script>
+  </head>
+  <body onload="init()" style="margin: 0;">
+    <div class="app">
+      <div class="content">
+        <div class="description">
+          <div class="title">Enter digit</div>
+          <div class="subtitle">Draw any digit in the box with your mouse.</div>
+        </div>
+        <div class="track">
+          <div class="drawbox">
+            <canvas id="sketchpad" height="400" width="510"></canvas>
+          </div>
+        </div>
+        <div class="controls">
+          <p>[Enter] - Submit</p>
+          <p>[C] - Clear</p>
+          <p>[D] - Download</p>
+        </div>
+      </div>
+      <div class="output">
+        <div class="display">
+          <canvas id="pis" height="400" width="510">0</canvas>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
